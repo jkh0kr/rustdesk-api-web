@@ -21,8 +21,8 @@ export const useAppStore = defineStore({
       sideIsCollapse: false,
       logo,
       langs: langs,
-      lang: localStorage.getItem('lang') || 'zh-CN',
-      locale: langs[(localStorage.getItem('lang') || 'zh-CN')].value,
+      lang: localStorage.getItem('lang') || 'ko',
+      locale: langs[(localStorage.getItem('lang') || 'ko')].value,
       appConfig: {
         web_client: 1,
       },
